@@ -1,0 +1,11 @@
+
+lexer = lex.lex()
+
+parser = yacc.yacc()
+
+while True:
+	try:
+		s = input('')
+	except EOFError:
+		break
+	parser.parse(s)

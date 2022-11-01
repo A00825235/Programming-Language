@@ -1,0 +1,10 @@
+
+//this is a comment//
+
+main() {
+    x = 0
+    while(x NEQ 10){
+        x = input()
+    }
+    print(x)
+}

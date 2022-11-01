@@ -1,0 +1,15 @@
+
+//this is a comment//
+
+main() {
+    
+    for(i in 10){
+        if(i < 5){
+            num = 0
+            while(num < i){
+                print(num)
+                num = num + 1
+            }
+        }
+    }
+}

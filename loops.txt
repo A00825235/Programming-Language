@@ -1,0 +1,28 @@
+
+//this is a comment//
+
+main() {
+    
+    pruebaUno = 0
+    for(i in 5) {
+        for(x in 10){
+            pruebaUno = pruebaUno + i
+        }
+    }
+    print(pruebaUno) // (1*10)+(2*10)+(3*10)+(4*10)+(5*10) = 150 //
+    
+    pruebaDos = 0
+    for(i in 5) {
+        for(x in 5){
+            pruebaDos = pruebaDos + i
+        }
+    }
+    print(pruebaDos) // (1*5)+(2*5)+(3*5)+(4*5)+(5*5) = 75 //
+
+    value = 3
+    for(value in 7) {
+        print(value) // rango de 3-7 //
+    }
+    print(value) // se regresa al valor original despues de iterar //
+    print(i) // se inicalizo la variable i dentro del loop con el valor inicial de 1 //
+}

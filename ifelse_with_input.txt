@@ -1,0 +1,24 @@
+
+//this is a comment//
+
+main() {
+    x = input()
+    i = x
+    if(i EQ 5){
+        print(1)
+    } else{
+        print(2)
+        i = i + 2
+        if(i EQ 8){
+            for(z in 10){
+                if(z < 5) {
+                    print(z)
+                } else{
+                    print(0)
+                }
+            }
+        } else{
+            print(x)
+        }
+    }
+}

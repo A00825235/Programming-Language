@@ -1,0 +1,14 @@
+
+//this is a comment//
+
+main() {
+    x = input()
+    while(x NEQ 0){
+        mod = x % 10
+        x = x/10
+        print(mod)
+        if(x < 10){
+            print(x)
+        }
+    }
+}

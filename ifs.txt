@@ -1,0 +1,21 @@
+
+//this is a comment//
+
+main() {
+    z = 0
+    for(i in 10) {
+        z = z + 1
+        if(z > 7){
+            print(z)
+            break
+        }
+        if(z EQ 5){
+            for(f in 5){
+                if(3 < f){
+                    break
+                }
+                print(f)
+            }
+        }
+    }
+}

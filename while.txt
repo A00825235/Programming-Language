@@ -1,0 +1,19 @@
+
+//this is a comment//
+
+main() {
+    z = 0
+    f = 10
+    while(z NEQ 10){
+        print(z)
+        z = z + 1
+        f = 10
+        if(z EQ 5){
+            break
+        }
+        while(f > z){
+            print(f)
+            f = f - 1
+        }
+    }
+}
